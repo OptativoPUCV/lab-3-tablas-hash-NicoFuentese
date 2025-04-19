@@ -50,3 +50,9 @@ hashmap.c:127:12: error: return from incompatible pointer type [-Werror=incompat
             ^~~
 cc1.exe: all warnings being treated as errors
 a8817ff
+Sat, Apr 19, 2025  3:28:42 PM: 
+ hashmap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  13|2
+total_score: 50/70
+2a5abf3
