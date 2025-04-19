@@ -58,12 +58,13 @@ HashMap * createMap(long capacity) {
     map->buckets = (Pair **)calloc(capacity, sizeof(Pair *));
     if (map->buckets == NULL) {
         free(map);
+        return NULL;
     }
 
     map->size = 0;
     map->capacity = capacity;
     map->current = -1;
-    
+
     return NULL;
 }
 
@@ -75,7 +76,7 @@ void eraseMap(HashMap * map,  char * key) {
 Pair * searchMap(HashMap * map,  char * key) {   
 
 
-    return NULL;
+    return map;
 }
 
 Pair * firstMap(HashMap * map) {
